@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Paul from './Paul';
+import { Porky } from './Paul';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
+          <Paul />
+          <Porky />
         </p>
         <a
           className="App-link"
