@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Paul from './Paul';
+import Paul, { Something } from './Paul';
 import { Porky } from './Paul';
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload.
           <Paul />
           <Porky />
+          <Something number={999} />
         </p>
         <a
           className="App-link"
